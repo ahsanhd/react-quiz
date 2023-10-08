@@ -3,7 +3,7 @@ function NextButton({ dispatch, answer }) {
   return (
     <button
       className="btn btn-ui"
-      onclick={() => dispatch({ type: "nextQuestion" })}
+      onClick={() => dispatch({ type: "nextQuestion" })}
     >
       Next
     </button>
